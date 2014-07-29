@@ -74,7 +74,7 @@
 	<field name="defenseplayer" type="string" indexed="true" stored="true" multiValued="true" />
 	<field name="playtype" type="string" indexed="true" stored="true" />
        <field name="year" type="int" indexed="true" stored="true" />
-	<field name="capacity" type="int" indexed="true" stored="true" />
+	<field name="capacity" type="long" indexed="true" stored="true" />
 
 	<field name="elevation" type="int" indexed="true" stored="true" />
 	<field name="stadiumlocation" type="string" indexed="true" stored="true" />
